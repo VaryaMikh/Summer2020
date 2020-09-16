@@ -1,0 +1,32 @@
+.reviews__content, .reviews__arrows {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.reviews__info {
+	width: 30%;
+}
+
+.btn.-reviews {
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 22px;
+	text-align: center;
+	color: var(--c-cyan);
+	background: var(--c-gray-light);
+	border: 1px solid var(--c-gray-light);
+	border-radius: 7px;
+}
+
+.reviews__title {
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 48px;
+	color: var(--c-marine);
+	margin: 40px 0 100px 0;
+}
+
+.reviews__arrows {
+	width: 80%;
+}

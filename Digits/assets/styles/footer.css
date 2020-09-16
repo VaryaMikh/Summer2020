@@ -1,0 +1,27 @@
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__title {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(69, 88, 128, 0.5);
+}
+
+.footer__text {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: right;
+	color: var(--c-marine);
+}
+
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	widows: 50%;
+}

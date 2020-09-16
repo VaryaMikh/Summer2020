@@ -1,0 +1,98 @@
+.content {
+	font-family: Fira Sans;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 575px;
+	margin-top: 120px;
+}
+
+.content__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.content__subtitle {
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.content__title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.content__desc {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	opacity: 0.8;
+	margin-bottom: 50px;
+}
+
+.content__btn {
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: var(--c-white);
+	color: var(--c-primary);
+	border: solid 1px var(--c-white);
+	padding: 10px;
+}
+
+.content__btn.-primary {
+	background-color: var(--c-primary);
+	color: var(--c-white);
+	margin-left: 15px;
+}
+
+.content__video {
+	width: 550px;
+	height: 500px;
+	background-image: url(../img/img.png);
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+
+.content__square {
+	width: 55px;
+	height: 55px;
+	background-color: var(--c-white);
+	top: 100px;
+	left: 130px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content__triangle {
+	width: 17px;
+	height: 17px;
+}
+
+.content__icon {
+	position: absolute;
+	top: 580px;
+	left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

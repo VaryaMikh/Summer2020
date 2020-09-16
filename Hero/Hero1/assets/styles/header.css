@@ -1,0 +1,19 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+}
+
+.header__link {
+	font-family: Fira Sans;
+	font-weight: normal;
+	font-size: 18px;
+	opacity: 0.5;
+	margin-left: 30px;
+}
+
+.header__link.-b {
+	opacity: 1;
+	margin-left: 0;
+}

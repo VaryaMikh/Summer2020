@@ -1,0 +1,23 @@
+.simplicity__content {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subtitle {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 21px;
+	text-align: center;
+	color: var(--c-marine);
+	margin-top: 50px;
+}
+
+.simplicity__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}

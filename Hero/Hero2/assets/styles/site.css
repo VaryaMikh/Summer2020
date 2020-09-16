@@ -1,0 +1,27 @@
+.site {
+	margin-top: 10px;
+}
+
+.site__header {
+	background-color: var(--c-pink);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site__circles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.site__circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: var(--c-red);
+}
+
+.site__img {
+	width: 100%;
+}

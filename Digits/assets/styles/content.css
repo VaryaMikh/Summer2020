@@ -1,0 +1,42 @@
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content__info {
+	width: 45%;
+}
+
+.content__subtitle {
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 22px;
+	color: var(--c-cyan);
+}
+
+.content__title {
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 64px;
+	color: var(--c-marine);
+	margin: 25px 0;
+}
+
+.content__desc {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 20px;
+	color: var(--c-marine);
+}
+
+.content__image {
+	width: 55%;
+}
+
+.content__img {
+	position: absolute;
+	width: 780px;
+	top: 25px;
+	right: 0;
+}

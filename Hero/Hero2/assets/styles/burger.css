@@ -1,0 +1,14 @@
+.burger {
+	height: 35px;
+	width: 35px;
+}
+
+i {
+	width: 34px;
+	height: 3px;
+	background-color: var(--c-gray);
+}
+
+i.-s {
+	width: 18px; 
+}

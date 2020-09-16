@@ -1,0 +1,45 @@
+.btn.-blue {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+	margin-top: 75px;
+	width: 250px;
+	color: var(--c-white);
+	background-color: var(--c-marine);
+	padding: 15px;
+	border: 1px solid var(--c-marine);
+	border-radius: 36px;
+}
+
+.btn__images {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn__img {
+	width: 25px;
+	height: 25px;
+}
+
+.btn__stick {
+	position: absolute;
+	left: 45px;
+	height: 26px;
+	opacity: 0.5;
+	border: 1px solid #FFFFFF;
+	transform: rotate(15deg);
+}
+
+.btn {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 16px;
+	color: var(--c-cyan);
+	border: 1px solid var(--c-cyan);
+	border-radius: 100px;
+	padding: 17px 20px;
+}

@@ -1,0 +1,35 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container.-simplicity {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 1240px) {
+	.container {
+		width: 1024px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.container {
+		width: 730px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+}

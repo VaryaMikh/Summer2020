@@ -1,0 +1,11 @@
+.calc {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 40%;
+	height: 60%;
+	background-color: var(--c-cyan);
+	padding: 30px;
+	border-radius: 5px;
+}

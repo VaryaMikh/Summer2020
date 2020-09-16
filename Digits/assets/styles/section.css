@@ -1,0 +1,27 @@
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.-hero {
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+section.-simplicity {
+	padding: 100px 0;
+	background-image: url(../img/simplicityImg.png);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+section.-subscribe {
+	background-color: var(--c-cyan);
+}

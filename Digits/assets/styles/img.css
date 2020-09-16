@@ -1,0 +1,42 @@
+.icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.icon.-design {
+	background-color: var(--c-beige);
+}
+
+.icon.-dev {
+	background-color: var(--c-pink);
+}
+
+.icon.-identity {
+	background-color: var(--c-purple);
+}
+
+.image {
+	width: 55%;
+}
+
+.img.-design, .img.-dev, .img.-identity {
+	position: absolute;
+	width: 700px;
+}
+
+.img.-design, .img.-identity {
+	left: 0;
+	top: 100vh;
+}
+
+.img.-dev {
+	right: 0;
+	top: 200vh;
+}
+
+.img.-identity {
+	top: 300vh;
+}

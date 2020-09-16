@@ -1,0 +1,49 @@
+.website__content {
+	 background-color: var(--c-white-dark);
+	 padding: 120px;
+}
+
+.website__content, .btn.-website {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.website__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.website__title {
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 48px;
+	color: var(--c-marine);
+	width: 50%;
+}
+
+.btn.-website {
+	width: 75%;
+	font-family: Halyard Display;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: var(--c-white);
+	background: var(--c-cyan);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 100px;
+}
+
+.website__desc {
+	font-family: Halyard Text;
+	font-weight: normal;
+	font-size: 16px;
+	color: var(--c-marine);
+	margin-top: 20px;
+}
+
+.website__desc.-cyan {
+	color: var(--c-cyan);
+}
